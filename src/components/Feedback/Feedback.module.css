@@ -1,0 +1,8 @@
+.item {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.item > span {
+  color: #5e6b6b;
+}

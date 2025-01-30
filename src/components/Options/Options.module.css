@@ -1,0 +1,30 @@
+.containerBtn {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.button {
+  background-color: #4b4b4b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: rgb(180, 162, 162);
+  color: black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.button:active {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
